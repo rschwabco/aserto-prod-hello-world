@@ -1,6 +1,15 @@
 {
   "roles": {
-    "viewer": {
+    "project-management": {
+      "perms": {
+        "asertodemo.GET.api.protected": {
+          "allowed": false,
+          "visible": false,
+          "enabled": false
+        }
+      }
+    },
+    "operations": {
       "perms": {
         "asertodemo.GET.api.protected": {
           "allowed": true,
@@ -9,7 +18,7 @@
         }
       }
     },
-    "editor": {
+    "senior-management": {
       "perms": {
         "asertodemo.GET.api.protected": {
           "allowed": false,
@@ -18,7 +27,7 @@
         }
       }
     },
-    "admin": {
+    "executive": {
       "perms": {
         "asertodemo.GET.api.protected": {
           "allowed": true,
