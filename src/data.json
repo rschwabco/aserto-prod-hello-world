@@ -1,0 +1,31 @@
+{
+  "roles": {
+    "viewer": {
+      "perms": {
+        "asertodemo.GET.api.protected": {
+          "allowed": true,
+          "visible": false,
+          "enabled": false
+        }
+      }
+    },
+    "editor": {
+      "perms": {
+        "asertodemo.GET.api.protected": {
+          "allowed": false,
+          "visible": false,
+          "enabled": true
+        }
+      }
+    },
+    "admin": {
+      "perms": {
+        "asertodemo.GET.api.protected": {
+          "allowed": true,
+          "visible": true,
+          "enabled": true
+        }
+      }
+    }
+  }
+}
